@@ -7,11 +7,11 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey:import.meta.env.VITE_FIREBASE_APIKEY,
-  authDomain: "fooddeliveryauth-7734b.firebaseapp.com",
-  projectId: "fooddeliveryauth-7734b",
-  storageBucket: "fooddeliveryauth-7734b.firebasestorage.app",
-  messagingSenderId: "32570922634",
-  appId: "1:32570922634:web:68a6334b0925ff3965ff73"
+ authDomain: "eatwell-ee93a.firebaseapp.com",
+  projectId: "eatwell-ee93a",
+  storageBucket: "eatwell-ee93a.firebasestorage.app",
+  messagingSenderId: "75623254989",
+  appId: "1:75623254989:web:1784efca28fb08db2f1284"
 };
 
 // Initialize Firebase
