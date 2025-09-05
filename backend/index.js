@@ -17,14 +17,14 @@ const app=express()
 const server=http.createServer(app)
 const io=new Server(server,{
      cors: {
-    origin: "http://localhost:5173", // production में specific domain डालना
+    origin: "https://eatwell-food-delivery.onrender.com",
     methods: ["GET", "POST"],
     credentials: true  
   }
 })
 app.set("io", io);
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://eatwell-food-delivery.onrender.com",
     credentials:true
 }))
 app.use(express.json())
